@@ -1,0 +1,16 @@
+[package]
+name = "cfg-pub_macro"
+version = "0.1.0"
+edition = "2018"
+publish = false
+
+authors = ["Christopher Durham (CAD97) <cad97@cad97.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+syn = { version = "1.0.37", features = ["full", "extra-traits"] }
+quote = "1.0.7"
+proc-macro2 = "1.0.19"
+pegcel-macros = "0.1.0"

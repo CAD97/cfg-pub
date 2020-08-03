@@ -1,0 +1,12 @@
+[package]
+name = "cfg-pub"
+version = "0.1.0"
+edition = "2018"
+
+authors = ["Christopher Durham (CAD97) <cad97@cad97.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+watt = "0.4"

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "cfg-pub",
+  "cfg-pub_macro",
+]
+
+[patch.crates-io]
+proc-macro2 = { git = "https://github.com/dtolnay/watt" }
